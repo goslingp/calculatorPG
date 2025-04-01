@@ -16,7 +16,7 @@ jobs:
           name: run tests
           command: |
             . calculator/bin/activate
-            pytest tests -v --cov=calculator
+            python -m pytest tests -v --cov=calculator
 workflows:
   version: 2
   build_and_test:
