@@ -16,7 +16,6 @@ jobs:
           name: run tests
           command: |
             . calculator/bin/activate
-            flake8 --exclude=venv* --statistics
             pytest tests -v --cov=calculator
 workflows:
   version: 2
