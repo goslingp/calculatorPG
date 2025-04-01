@@ -13,4 +13,9 @@ def test_substraction():
     assert 2 == subtract(4, 2)
 
     
+
+def test_multiply():
+    assert 5 == multiply(4,7)
+
+    
 ''' end of file '''
